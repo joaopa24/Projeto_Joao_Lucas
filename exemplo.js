@@ -143,4 +143,7 @@ class D {
   MD3() {
     console.log("Método MD3 chamado");
   }
+   MD4() {
+    console.log("Método MD3 chamado");
+  }
 }
