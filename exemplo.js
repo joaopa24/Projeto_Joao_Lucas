@@ -107,3 +107,38 @@ class C {
     console.log("Método MC3 chamado");
   }
 }
+
+class D {
+  constructor(D1, D2) {
+    this._D1 = D1;
+    this._D2 = D2;
+  }
+
+  // Getters e Setters
+  get D1() {
+    return this._D1;
+  }
+
+  set D1(value) {
+    this._D1 = value;
+  }
+
+  get D2() {
+    return this._D2;
+  }
+
+  set D2(value) {
+    this._D2 = value;
+  }
+
+  // Métodos MD1 e MD2
+  MD1() {
+    console.log("Método MD1 chamado");
+    // Adicione aqui a lógica do método MD1, se necessário
+  }
+
+  MD2() {
+    console.log("Método MD2 chamado");
+    // Adicione aqui a lógica do método MD2, se necessário
+  }
+}
