@@ -56,7 +56,7 @@ class B {
     this._B2 = value;
   }
 
-  // Métodos MB1 e MB2
+  // Métodos MB1, MB2 e MB3
   MB1() {
     console.log("Método MB1 chamado");
   }
@@ -64,13 +64,46 @@ class B {
   MB2() {
     console.log("Método MB2 chamado");
   }
+
+  MB3() {
+    console.log("Método MB3 chamado");
+  }
 }
 
-// Exemplo de utilização das classes A e B
-const objetoA = new A(10, 3.14);
-const objetoB = new B(20, 6.28);
+// Definição da classe C
+class C {
+  constructor(C1, C2) {
+    this._C1 = C1;
+    this._C2 = C2;
+  }
 
-objetoA.MA1();
-objetoA.MA2();
-objetoB.MB1();
-objetoB.MB2();
+  // Getters e Setters
+  get C1() {
+    return this._C1;
+  }
+
+  set C1(value) {
+    this._C1 = value;
+  }
+
+  get C2() {
+    return this._C2;
+  }
+
+  set C2(value) {
+    this._C2 = value;
+  }
+
+  // Métodos MC1, MC2 e MC3
+  MC1() {
+    console.log("Método MC1 chamado");
+  }
+
+  MC2() {
+    console.log("Método MC2 chamado");
+  }
+
+  MC3() {
+    console.log("Método MC3 chamado");
+  }
+}
