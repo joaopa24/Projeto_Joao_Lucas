@@ -141,4 +141,7 @@ class D {
     console.log("Método MD2 chamado");
     // Adicione aqui a lógica do método MD2, se necessário
   }
+   MD4() {
+    console.log("Método MD3 chamado");
+  }
 }
