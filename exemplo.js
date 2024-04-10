@@ -131,14 +131,16 @@ class D {
     this._D2 = value;
   }
 
-  // Métodos MD1 e MD2
+  // Métodos MD1, MD2 e MD3
   MD1() {
     console.log("Método MD1 chamado");
-    // Adicione aqui a lógica do método MD1, se necessário
   }
 
   MD2() {
     console.log("Método MD2 chamado");
-    // Adicione aqui a lógica do método MD2, se necessário
+  }
+
+  MD3() {
+    console.log("Método MD3 chamado");
   }
 }
