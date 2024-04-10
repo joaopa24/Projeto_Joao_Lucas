@@ -74,3 +74,36 @@ objetoA.MA1();
 objetoA.MA2();
 objetoB.MB1();
 objetoB.MB2();
+
+class C {
+  constructor(C1, C2) {
+    this._C1 = C1;
+    this._C2 = C2;
+  }
+
+  // Getters e Setters
+  get C1() {
+    return this._C1;
+  }
+
+  set C1(value) {
+    this._C1 = value;
+  }
+
+  get C2() {
+    return this._C2;
+  }
+
+  set C2(value) {
+    this._C2 = value;
+  }
+
+  // Métodos MC1 e MC2
+  MC1() {
+    console.log("Método MC1 chamado");
+  }
+
+  MC2() {
+    console.log("Método MC2 chamado");
+  }
+}
